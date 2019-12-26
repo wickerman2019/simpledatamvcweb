@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Список книг</title>
+</head>
+<body>
+      <table>
+           <thead>
+                  <tr>
+                      <th scope="col">Автор</th>
+                      <th scope="col">Название</th>
+                      <th scope="col">Издательство</th>
+                      <th scope="col">Год</th>
+                  </tr>
+           </thead>
+            <tbody>
+                  <tr th:each="book : ${books}">
+                      <td th:text=${book.name}></td>
+                      <td th:text=${book.author}></td>
+                      <td th:text=${book.publisher}></td>
+                      <td th:text=${book.year}></td>
+                  </tr>
+            </tbody>
+       </table>
+</body>
+</html>

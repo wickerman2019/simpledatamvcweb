@@ -20,4 +20,12 @@ The following guides illustrate how to use some features concretely:
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 * [Spring Boot With H2 Database](https://www.baeldung.com/spring-boot-h2-database)
 * [Spring Data Java 8 Support](https://www.baeldung.com/spring-data-java-8)
+* [Integrating H2 Database with Spring Boot](https://stackabuse.com/integrating-h2-database-with-spring-boot/)
 
+### Medium guides
+
+* [Building a Spring Boot REST API — Part 1: Setting Up the Application](https://medium.com/better-programming/building-a-spring-boot-rest-api-a-php-developers-view-part-i-6add2e794646)
+* [Building a Spring Boot REST API — Part 2: Working With Controllers and Responses](https://medium.com/better-programming/building-a-spring-boot-rest-api-part-ii-7ff1e4384b0b)
+* [Building a Spring Boot REST API — Part 3: Integrating MySQL Database and JPA](https://medium.com/better-programming/building-a-spring-boot-rest-api-part-iii-integrating-mysql-database-and-jpa-81391404046a)
+* [Spring Security Series — A Spring Boot Application with H2, JPA, BootStrap, and Thymeleaf (Part 1)](https://medium.com/codefountain/spring-security-series-a-spring-boot-application-with-h2-jpa-bootstrap-and-thymeleaf-part-1-4a2c78a3d624)
+* [Spring Security Series — A Spring Boot Application with H2, JPA, BootStrap, and Thymeleaf (Part 2)](https://medium.com/codefountain/spring-security-series-securing-spring-boot-todo-application-part-2-85b892dc8278)
