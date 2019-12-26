@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Новая книга</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Новая книга добавлена</h1>
+    <p th:text="'ID: ' + ${book.id}" />
+	<p th:text="'Автор: ' + ${book.author}" />
+	<p th:text="'Название: ' + ${book.name}" />
+	<p th:text="'Издательство: ' + ${book.publisher}" />
+	<p th:text="'Год: ' + ${book.year}" />	
+    <a href="/addbook">Добавить ещё книгу</a>
+</body>
+</html>

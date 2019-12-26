@@ -13,8 +13,11 @@ For further reference, please consider the following sections:
 The following guides illustrate how to use some features concretely:
 
 * [Using Spring Data JDBC](https://github.com/spring-projects/spring-data-examples/tree/master/jdbc/basics)
+* [Accessing Relational Data using JDBC with Spring](https://spring.io/guides/gs/relational-data-access/)
 * [Handling Form Submission](https://spring.io/guides/gs/handling-form-submission/)
 * [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
+* [Spring Boot With H2 Database](https://www.baeldung.com/spring-boot-h2-database)
+* [Spring Data Java 8 Support](https://www.baeldung.com/spring-data-java-8)
 
