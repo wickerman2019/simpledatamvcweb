@@ -7,7 +7,7 @@
 <body>
 	<h1>Добавьте новую книгу</h1>
     <form action="#" th:action="@{/addbook}" th:object="${book}" method="post">
-    	<p>ID: <input type="text" th:field="*{id}" /></p>
+    	<!-- p>ID: <input type="text" th:field="*{id}" /></p -->
         <p>Автор: <input type="text" th:field="*{author}" /></p>
         <p>Имя: <input type="text" th:field="*{name}" /></p>
         <p>Издательство: <input type="text" th:field="*{publisher}" /></p>

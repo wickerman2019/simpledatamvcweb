@@ -21,6 +21,7 @@ The following guides illustrate how to use some features concretely:
 * [Spring Boot With H2 Database](https://www.baeldung.com/spring-boot-h2-database)
 * [Spring Data Java 8 Support](https://www.baeldung.com/spring-data-java-8)
 * [Integrating H2 Database with Spring Boot](https://stackabuse.com/integrating-h2-database-with-spring-boot/)
+* [Интеграция Spring Boot, JPA и H2 Database](https://o7planning.org/ru/11893/integrating-spring-boot-jpa-and-h2-database)
 
 ### Medium guides
 

@@ -3,6 +3,7 @@ package is.ntc.simpledatamvcweb;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -39,14 +40,20 @@ public class BookController {
 			@RequestParam(name="name", required=false, defaultValue="") String name, 
 			@RequestParam(name="author", required=false, defaultValue="") String author,
 			@RequestParam(name="publisher", required=false, defaultValue="") String publisher,
-			@RequestParam(name="year", required=false, defaultValue="2000") int year,
+			@RequestParam(name="year", required=false, defaultValue="2000") short year,
 			Model model) {
-		//model.addAttribute("book", new Book(id, name, author, publisher, year));
+		model.addAttribute("book", new Book(name, author, publisher, year));
 		return "addbook";
 	}
 	
 	@PostMapping("/addbook")
 	  public String addbookSubmit(@ModelAttribute Book book) {
-	    return "newbook";
+		bookService.saveOrUpdate(book);
+		return "newbook";
 	}
+	
+    @DeleteMapping("/book/{id}")
+    private void deleteBook(@PathVariable("id") int id) {
+    	bookService.delete(id);
+    }
 }
