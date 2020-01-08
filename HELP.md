@@ -18,10 +18,15 @@ The following guides illustrate how to use some features concretely:
 * [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
-* [Spring Boot With H2 Database](https://www.baeldung.com/spring-boot-h2-database)
-* [Spring Data Java 8 Support](https://www.baeldung.com/spring-data-java-8)
 * [Integrating H2 Database with Spring Boot](https://stackabuse.com/integrating-h2-database-with-spring-boot/)
 * [Интеграция Spring Boot, JPA и H2 Database](https://o7planning.org/ru/11893/integrating-spring-boot-jpa-and-h2-database)
+
+### Baeldung guides
+* [Spring Boot With H2 Database](https://www.baeldung.com/spring-boot-h2-database)
+* [Spring Data Java 8 Support](https://www.baeldung.com/spring-data-java-8)
+* [Spring Boot Tutorial – Bootstrap a Simple Application](https://www.baeldung.com/spring-boot-start)
+* [Spring Data – CrudRepository save() Method](https://www.baeldung.com/spring-data-crud-repository-save)
+* [A Guide to JPA with Spring](https://www.baeldung.com/the-persistence-layer-with-spring-and-jpa)
 
 ### Medium guides
 
