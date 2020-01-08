@@ -35,8 +35,7 @@ public class BookController {
 	}
 	
 	@GetMapping("/addbook")
-	public String addbook(
-			@RequestParam(name="id", required=false, defaultValue="1") int id,
+	public String addbook(			
 			@RequestParam(name="name", required=false, defaultValue="") String name, 
 			@RequestParam(name="author", required=false, defaultValue="") String author,
 			@RequestParam(name="publisher", required=false, defaultValue="") String publisher,

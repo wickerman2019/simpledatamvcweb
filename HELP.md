@@ -20,12 +20,14 @@ The following guides illustrate how to use some features concretely:
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 * [Integrating H2 Database with Spring Boot](https://stackabuse.com/integrating-h2-database-with-spring-boot/)
 * [Интеграция Spring Boot, JPA и H2 Database](https://o7planning.org/ru/11893/integrating-spring-boot-jpa-and-h2-database)
+* [Integrating Spring Boot with H2 In Memory Database](https://code-adda.com/2018/12/integrating-spring-boot-with-h2-in-memory-database/)
 
 ### Baeldung guides
 * [Spring Boot With H2 Database](https://www.baeldung.com/spring-boot-h2-database)
 * [Spring Data Java 8 Support](https://www.baeldung.com/spring-data-java-8)
 * [Spring Boot Tutorial – Bootstrap a Simple Application](https://www.baeldung.com/spring-boot-start)
 * [Spring Data – CrudRepository save() Method](https://www.baeldung.com/spring-data-crud-repository-save)
+* [An Overview of Identifiers in Hibernate](https://www.baeldung.com/hibernate-identifiers)
 * [A Guide to JPA with Spring](https://www.baeldung.com/the-persistence-layer-with-spring-and-jpa)
 
 ### Medium guides
