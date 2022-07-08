@@ -15,9 +15,9 @@
                   </tr>
            </thead>
             <tbody>
-                  <tr th:each="book : ${books}">
-                      <td th:text=${book.name}></td>
+                  <tr th:each="book : ${books}">                      
                       <td th:text=${book.author}></td>
+                      <td th:text=${book.name}></td>
                       <td th:text=${book.publisher}></td>
                       <td th:text=${book.year}></td>
                   </tr>

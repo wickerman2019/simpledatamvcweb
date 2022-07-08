@@ -8,7 +8,7 @@ CREATE TABLE book (
   year INT DEFAULT NULL
 );
 
-INSERT INTO book (name, author, publisher, year) VALUES
+INSERT INTO book (author, name, publisher, year) VALUES
 	('Бьярне Страуструп', 'Программирование: принципы и практика использования C++', 
 	    		'Издательский дом Вильямс', '2011'),
 	('Николай Прохоренок', 'Основы Java', 
